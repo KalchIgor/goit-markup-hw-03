@@ -1,0 +1,352 @@
+body { 
+    font-family:'Roboto', 'Times New Roman',  sans-serif;
+}
+html {
+    box-sizing: border-box;
+}
+   
+*,
+::before,
+::after {
+    box-sizing: inherit;}
+  
+:root {
+    --main-one-color: #2196F3;
+    --main-to-color:  #757575;
+    --main-sir-color:  #FFFFFF;
+    --main-fa-color: #2F303A;
+    --main-se-color:  #212121;
+    --main-so-color:  #F5F4FA ;
+    --main-sr-color:  #000000;
+
+  }
+a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   }
+a {   margin: 0px;}
+li {
+    list-style-type: none; /* Убираем маркеры */
+    padding: 0px;
+    margin: 0px;
+}
+h1 { 
+    text-transform: uppercase; /* Заглавные буквы */
+   }
+h1, h2, h3, p , header , main{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ul { padding-inline-start: 0px; }
+
+.dio-a , .dio-b , .dio-c , .mail-a , .mail-b , .box-r, .box-t{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+.dio-c, .kont-c, .kont-a, .dio-b  {
+    color:  var(--main-se-color);
+}
+.mail-a, .mail-b ,.kont-i ,.kont-d {
+    color:  var(--main-to-color) ;
+}
+
+
+.active:hover,.active:focus  {
+    color:  var(--main-one-color);
+}
+
+.dio-a, .kont-b {
+    color:var(--main-one-color);
+}
+ 
+.hero-big {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color:  var(--main-sir-color);
+    text-align: center;
+    padding: 200px 452px 60px 452px;
+}
+.hero {
+    background-color :var(--main-fa-color);
+    width: 1600px;
+    height: 600px;
+    text-align: center;
+
+}
+
+.ten {
+    width: 1600px;
+    height: 252px;
+    background-color : var(--main-fa-color);} 
+.logo { 
+    font-family:Raleway;
+    font-weight: 700;
+    font-size: 26px;
+ /*line-height: 1.38;*/
+    color: var(--main-sr-color);
+   
+}   
+.logo-web, .lo-b{
+    color:
+    var(--main-one-color);
+} 
+
+.lo-a , .logo-wite { color: var(--main-sir-color);
+
+}
+
+.comand {
+    padding-left: 215px;
+    padding-right: 215px;
+    width: 1600px;
+    height: 648px;
+    background-color: var(--main-so-color);
+    padding-top : 94px ;
+}
+.comone {  display: flex;
+    text-align: center; 
+    margin: 15px;
+    justify-content: center;
+}
+.bend { padding-top: 94px;
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+.tehnology  {
+    margin-left: 215px;
+    margin-right: 215px;
+    display: flex;  
+   
+    width: 1600px;
+}
+.foto { display: flex;
+    
+   justify-content: space-around ;
+   width: 1170px;
+   height: 370px; ;
+   margin-left: 215px;
+   margin-right: 215px;
+   margin-top: 50px;
+  
+}
+.subtitle, .grey {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    color:  var(--main-se-color);
+}
+.profession {
+    font-size: 16px;
+    line-height: 1.17;
+    color:  var(--main-to-color);
+}
+.sect {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--main-se-color);
+    text-align: center; 
+}
+.det-a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--main-se-color);
+}
+.det-b {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--main-to-color);
+    width: 270px ;
+    height: 72px;
+}
+.adr-b, .adr-c, .info-b, .info-c, .adr-a  {
+    font-size: 14px;
+    line-height: 1.71;
+    color:  var(--main-sir-color);
+    font-style: normal;
+    opacity: 0.6;
+}
+.adr-a  {
+    opacity: 1;
+}
+
+    
+
+.box-r, .box-t {
+    display: flex;
+    gap: 50px 30px;
+}
+
+
+.bot-x {
+    width: 216px;
+    height: 50px;
+    top: 430px;
+    left: 692px;
+    background-color: var(--main-one-color);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--main-sir-color);
+}
+.bot-x:hover ,.bot-x:focus {
+    color:  var(--main-fa-color);
+}
+
+
+.section , .section-q, .sec-q {
+    visibility: hidden;
+}
+.adress , .ten { box-sizing: border-box;
+    padding-left: 215px;
+    width: 1600px;
+    height: 252px;
+    background: var(--main-fa-color);
+   
+}
+.frend { 
+    display: flex;
+    justify-content:space-around;
+}
+
+.but-sek  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.grey { 
+    width:100px;
+    height:26px;
+    top:180px;
+    left:979px;
+    background: var(--main-so-color);
+    margin: 10px;
+    border: none; 
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.widget {
+        font-size: 16px;
+        line-height: 1.88;
+        color: var(--main-to-color);
+}
+.aside {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        color: var(--main-se-color);
+}
+
+.subtitle, .profession { text-align: center;
+}
+
+.grey:hover{
+    background-color: var(--main-one-color); 
+    color: var(--main-sir-color);
+    transition-duration: 0.5s;
+}
+.grey:focus{
+    background-color: var(--main-one-color); 
+    color: var(--main-sir-color);
+}
+.cool {
+    font-weight: 400;
+}
+.container {
+    width:1170px; 
+    height: 80px;
+    display: flex;
+    justify-content:  space-between ;
+    vertical-align: middle; 
+    margin-left: 215px; 
+    margin-right: 215px; 
+    align-items: center;
+
+}
+.logo{ display: inline-block;
+width: 145px;
+height: 31px;
+margin-right: 143px;
+}
+.active {
+    display: inline-block;
+}
+
+.kont-a, .dio-a {
+    width: 45px;
+    height: 16px;
+}
+.kont-b, .dio-b {
+    width: 75px;
+    height: 16px;
+}
+.kont-c, .dio-c {
+    width: 64px;
+    height: 16px;
+}
+.mail-a , .kont-d {
+    width: 135px;
+    height: 16px;
+    margin-left: 310px;
+}
+.kont-i, .mail-b {
+    width: 122px;
+    height: 16px;
+}
+.kont-i { margin: right 0px;;
+margin-left: 50px;}
+/*.navig {
+    width: 281px;
+    height: 16px;
+    margin-right: 344px;
+    
+}*/
+.box {
+    width: 1170px;
+    height: 1360px;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-left: auto; 
+    margin-right: auto;
+    justify-content:space-between;
+    margin-top: 56px;
+ }
+ .content {
+    width: 370px;
+    height: 404px;}
+.but-sek {
+    margin: top 44px; ;
+}
+.holder {
+    width: 1170px; 
+    height: 1360px;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+.adress {
+    margin-top: 94px;}
+
+.adr-a, .info-b,.info-c {
+    width: 231px;
+    height: 21px;
+}
+.lo-a {
+    margin-bottom: 20px;
+}
+footer a.logo {
+margin-top: 50px;}
+ 
+ 
