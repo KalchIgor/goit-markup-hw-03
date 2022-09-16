@@ -178,10 +178,14 @@ ul { padding-inline-start: 0px; }
 }
 
     
-
+.box-r {justify-content: space-between;}
 .box-r, .box-t {
     display: flex;
+    
     gap: 50px 30px;
+    width: 281px;
+    height: 16px;
+    padding-top: 32px;
 }
 
 
@@ -280,7 +284,8 @@ ul { padding-inline-start: 0px; }
 .logo{ display: inline-block;
 width: 145px;
 height: 31px;
-margin-right: 143px;
+padding-top: 24px;
+
 }
 .active {
     display: inline-block;
@@ -299,16 +304,15 @@ margin-right: 143px;
     height: 16px;
 }
 .mail-a , .kont-d {
-    width: 135px;
+   /* width: 135px;*/
     height: 16px;
-    margin-left: 310px;
 }
+/*
 .kont-i, .mail-b {
     width: 122px;
     height: 16px;
-}
-.kont-i { margin: right 0px;;
-margin-left: 50px;}
+}*/
+
 .navig {
     width: 281px;
     height: 16px;
@@ -323,13 +327,22 @@ margin-left: 50px;}
     justify-content:space-between;
     margin-left: auto;
     margin-right: auto;
+    }
+.box-q { display: flex;
+    flex-wrap: wrap; 
+    margin-left: auto; 
+    margin-right: auto;
+    justify-content:space-between;
+    align-items:stretch;
+    margin-bottom: 94px;
     
- }/*
+}
+ /*
  .content {
     width: 370px;
-    height: 404px;}
-.but-sek {
-    margin: top 44px; ;
+    height: 404px;}*/
+.but-sek, .box {margin-bottom: 56px;
+    
 }
 /*.holder {
     width: 1170px; 
@@ -347,7 +360,8 @@ margin-left: 50px;}
 .lo-a {
     margin-bottom: 20px;
 }
-footer a.logo {
-margin-top: 50px;}
+.logo-activ {
+margin-top: 18px;
+padding-right: 93px;}
  
  
