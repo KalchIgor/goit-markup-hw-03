@@ -38,20 +38,19 @@ h1, h2, h3, p , header , main{
 }
 ul { padding-inline-start: 0px; }
 
-.dio-a , .dio-b , .dio-c , .mail-a , .mail-b , .box-r, .box-t{
+.box-r,.box-t {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
 }
 
 
-.dio-c, .kont-c, .kont-a, .dio-b  {
+.promo  {
     color:  var(--main-se-color);
 }
-.mail-a, .mail-b ,.kont-i ,.kont-d {
-    color:  var(--main-to-color) ;
-}
 
+.mail-li {
+    color:  var(--main-to-color);}
 
 .active:hover,.active:focus  {
     color:  var(--main-one-color);
@@ -266,14 +265,16 @@ ul { padding-inline-start: 0px; }
     font-weight: 400;
 }
 .container {
-    width:1170px; 
-    height: 80px;
-    display: flex;
+    width:1200px;
+    padding-left: 15px; 
+    padding-right: 15px;
+   /* display: flex;*/
     justify-content:  space-between ;
     vertical-align: middle; 
-    margin-left: 215px; 
-    margin-right: 215px; 
+    margin-left: auto; 
+    margin-right: auto; 
     align-items: center;
+    text-align: center;
 
 }
 .logo{ display: inline-block;
@@ -308,34 +309,34 @@ margin-right: 143px;
 }
 .kont-i { margin: right 0px;;
 margin-left: 50px;}
-/*.navig {
+.navig {
     width: 281px;
     height: 16px;
     margin-right: 344px;
     
-}*/
+}
+
 .box {
-    width: 1170px;
-    height: 1360px;
+    
     display: flex;
     flex-wrap: wrap; 
-    margin-left: auto; 
-    margin-right: auto;
     justify-content:space-between;
-    margin-top: 56px;
- }
+    margin-left: auto;
+    margin-right: auto;
+    
+ }/*
  .content {
     width: 370px;
     height: 404px;}
 .but-sek {
     margin: top 44px; ;
 }
-.holder {
+/*.holder {
     width: 1170px; 
     height: 1360px;
     margin-left: 215px;
     margin-right: 215px;
-}
+}*/
 .adress {
     margin-top: 94px;}
 
