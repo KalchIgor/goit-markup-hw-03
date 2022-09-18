@@ -71,10 +71,8 @@ ul { padding-inline-start: 0px; }
 }
 .hero {
     background-color :var(--main-fa-color);
-   /* width: 1600px;*/
     height: 600px;
     text-align: center;
-
 }
 
 .ten {
@@ -83,19 +81,16 @@ ul { padding-inline-start: 0px; }
     font-family:Raleway;
     font-weight: 700;
     font-size: 26px;
- /*line-height: 1.38;*/
+    line-height: 1.38;
     color: var(--main-sr-color);
-   
 }   
 .logo-web, .lo-b{
     color:
     var(--main-one-color);
 } 
-
-.lo-a , .logo-wite { color: var(--main-sir-color);
-
+.lo-a , .logo-wite { 
+    color: var(--main-sir-color);
 }
-
 .comand {
    /* height: 648px;*/
     background-color: var(--main-so-color);
@@ -113,21 +108,16 @@ ul { padding-inline-start: 0px; }
     text-align: center; 
     margin-bottom: 50px;
 }
-
 .tehnology  {
     display: flex;  
     justify-content: space-between;
-    text-align:left;
-  
-    
+    text-align:left;  
 }
 .foto {
      display: flex; 
    justify-content: space-between ;
    height: 370px; 
    margin-top: 50px;
-  
-  
 }
 .subtitle, .grey {
     font-weight: 500;
@@ -170,8 +160,6 @@ ul { padding-inline-start: 0px; }
 .adr-a  {
     opacity: 1;
 }
-
-
 .bot-x {
     width: 216px;
     height: 50px;
@@ -319,26 +307,16 @@ height: 16px;
     height: 16px;
 }
 
-.box-t {
-    display: flex;
-    justify-content:space-evenly;
-    height: 16px;
-    width: 350px;
-    padding-top: 32px;
-    /*margin-left: 344px;*/
-}
-
 .logo-activ {margin-left: 0px;
 padding-top: 24px;
 }
-.box-r {justify-content: space-between;
+.box-r, .box-t  {
+    justify-content: space-between;
     display: flex;
     width: 281px;
     height: 16px;
     margin: 0px;
    padding-top: 32px;
-    
-   /* padding-right: 344px;*/
      
 }
    
@@ -350,40 +328,49 @@ padding-top: 24px;
     margin-bottom: 94px;
    
 }
-.dio-b,.kont-b {
+/*
+.dio-b,{
     margin-left: 30px;
     margin-right: 30px;
-}
+} */
 .lo-a.active{
     padding-top: 60px ;
     padding-bottom: 20px;
 }
 
 
-.kont-a  { 
+.kont-a, .dio-a { 
     display: inline-block;
     width: 45px ;
     height:31px ;
 }
-.kont-b { 
+.kont-b ,.dio-b { 
     display: inline-block;
     width: 72px ;
     height:31px ;
 }
-.kont-c { 
+.kont-c, .dio-c { 
     display: inline-block;
     width: 64px ;
     height:31px ;
 }
-.kont-d { 
+.kont-d, .mail-a { 
     display: inline-block;
     width: 135px ;
     height:16px ;
 }
-.kont-i { 
+.kont-i, .mail-b { 
     display: inline-block;
     width: 122px ;
     height: 16px;
+}
+.frend-block {
+    width: 270px;
+    height: 368px;
+}
+.subtitle {
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 
