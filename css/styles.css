@@ -8,7 +8,8 @@ html {
 *,
 ::before,
 ::after {
-    box-sizing: inherit;}
+    box-sizing: inherit;
+}
   
 :root {
     --main-one-color: #2196F3;
@@ -96,16 +97,13 @@ ul { padding-inline-start: 0px; }
 }
 
 .comand {
-    padding-left: 215px;
-    padding-right: 215px;
-    width: 1600px;
-    height: 648px;
+   /* height: 648px;*/
     background-color: var(--main-so-color);
     padding-top : 94px ;
 }
 .comone {  display: flex;
     text-align: center; 
-    margin: 15px;
+   /* margin: 15px;*/
     justify-content: center;
 }
 .bend { padding-top: 94px;
@@ -120,6 +118,7 @@ ul { padding-inline-start: 0px; }
     display: flex;  
     justify-content: space-between;
     text-align:left;
+  
     
 }
 .foto {
@@ -127,6 +126,7 @@ ul { padding-inline-start: 0px; }
    justify-content: space-between ;
    height: 370px; 
    margin-top: 50px;
+  
   
 }
 .subtitle, .grey {
@@ -193,7 +193,7 @@ ul { padding-inline-start: 0px; }
     visibility: hidden;
 }
 .adress , .ten { box-sizing: border-box;
-    width: 1600px;
+   
     padding-left: 200px;
     height: 252px;
     background: var(--main-fa-color);
@@ -263,8 +263,7 @@ height: 31px;
     display: inline-block;
 }
 
-.box {
-    
+.box { 
     display: flex;
     flex-wrap: wrap; 
     align-items: center;
@@ -300,16 +299,17 @@ height: 31px;
 .container {
     width:1200px;
     padding-left: 15px; 
-    padding-right: 15px;
-    vertical-align: middle; 
-    margin-left: auto; 
-    margin-right: auto; 
-    align-items: center;
-    text-align: center;
+    padding-right: 15px; 
+    margin-left: auto ;
+    margin-right: auto ;
+   /* align-items: center;
+    text-align: center;*/
+   
 }
+
 .dio-a{
     width: 45px;
-height: 16px;
+    height: 16px;
 }
 .dio-b{
     width: 72px;
@@ -359,3 +359,6 @@ padding-top: 24px;
     padding-top: 60px ;
     padding-bottom: 20px;
 }
+
+
+
