@@ -308,7 +308,7 @@ height: 16px;
     height: 16px;
 }
 
-.logo-activ {margin-left: 0px;
+.logo-activ {
 padding-top: 24px;
 }
 .box-r, .box-t  {
@@ -318,14 +318,16 @@ padding-top: 24px;
     height: 16px;
     margin: 0px;
    padding-top: 32px;
-     
+   margin-left: 93px;
+   margin-right: 134px;
+    
 }
    
 .box-q { display: flex;
     flex-wrap: wrap; 
     align-items: center;
-  justify-content:space-between;
-
+  justify-content: start;                     /*space-between;*/
+  /*  margin-right: 0 93px; */
     margin-bottom: 94px;
    
 }
@@ -345,6 +347,7 @@ padding-top: 24px;
     display: inline-block;
     width: 72px ;
     height:31px ;
+  
 }
 .kont-c, .dio-c { 
     display: inline-block;
