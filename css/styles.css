@@ -323,10 +323,10 @@ height: 16px;
 .box-t {
     display: flex;
     justify-content:space-evenly;
-    width: 307px;
     height: 16px;
     width: 350px;
     padding-top: 32px;
+    margin-left: 344px;
 }
  /*vertical-align: middle;*/
 .logo-activ {margin-left: 0px;
@@ -336,9 +336,10 @@ padding-top: 24px;
     display: flex;
     width: 281px;
     height: 16px;
-    padding-top: 32px;
-    /*padding-left: 93px;*/
-    padding-right: 344px;
+    margin: 0px;
+   padding-top: 32px;
+    
+   /* padding-right: 344px;*/
      
 }
    
@@ -358,6 +359,36 @@ padding-top: 24px;
     padding-top: 60px ;
     padding-bottom: 20px;
 }
-
-
+/*
+.logo-activ { 
+    display: inline-block;
+    width: 145px ;
+    height:31px ;
+}
+.kont-a  { 
+    display: inline-block;
+    width: 45px ;
+    height:31px ;
+}
+.kont-b { 
+    display: inline-block;
+    width: 72px ;
+    height:31px ;
+}
+.kont-c { 
+    display: inline-block;
+    width: 64px ;
+    height:31px ;
+}
+.kont-d { 
+    display: inline-block;
+    width: 135px ;
+    height:16px ;
+}
+.kont-i { 
+    display: inline-block;
+    width: 122px ;
+    height: 16px;
+}
+*/
 
