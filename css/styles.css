@@ -318,16 +318,15 @@ padding-top: 24px;
     height: 16px;
     margin: 0px;
    padding-top: 32px;
-   margin-left: 93px;
-   margin-right: 134px;
+  /*  margin-left: 93px;
+   margin-right: 134px; */
     
 }
    
 .box-q { display: flex;
     flex-wrap: wrap; 
     align-items: center;
-  justify-content: start;                     /*space-between;*/
-  /*  margin-right: 0 93px; */
+  justify-content: space-between;
     margin-bottom: 94px;
    
 }
