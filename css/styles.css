@@ -255,8 +255,7 @@ ul { padding-inline-start: 0px; }
 .logo{ display: inline-block;
 width: 145px;
 height: 31px;
-/*padding-top: 60px;
-*/
+
 }
 .active {
     display: inline-block;
@@ -326,9 +325,9 @@ height: 16px;
     height: 16px;
     width: 350px;
     padding-top: 32px;
-    margin-left: 344px;
+    /*margin-left: 344px;*/
 }
- /*vertical-align: middle;*/
+
 .logo-activ {margin-left: 0px;
 padding-top: 24px;
 }
@@ -359,12 +358,8 @@ padding-top: 24px;
     padding-top: 60px ;
     padding-bottom: 20px;
 }
-/*
-.logo-activ { 
-    display: inline-block;
-    width: 145px ;
-    height:31px ;
-}
+
+
 .kont-a  { 
     display: inline-block;
     width: 45px ;
@@ -390,5 +385,5 @@ padding-top: 24px;
     width: 122px ;
     height: 16px;
 }
-*/
+
 
