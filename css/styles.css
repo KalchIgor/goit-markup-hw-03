@@ -71,7 +71,7 @@ ul { padding-inline-start: 0px; }
 }
 .hero {
     background-color :var(--main-fa-color);
-    width: 1600px;
+   /* width: 1600px;*/
     height: 600px;
     text-align: center;
 
@@ -193,7 +193,6 @@ ul { padding-inline-start: 0px; }
     visibility: hidden;
 }
 .adress , .ten { box-sizing: border-box;
-   
     padding-left: 200px;
     height: 252px;
     background: var(--main-fa-color);
