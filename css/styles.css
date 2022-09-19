@@ -39,7 +39,7 @@ h1, h2, h3, p , header , main{
 }
 ul { padding-inline-start: 0px; }
 
-.box-r,.box-t {
+.navigation-r,.box-navigation{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
@@ -50,33 +50,53 @@ ul { padding-inline-start: 0px; }
     color:  var(--main-se-color);
 }
 
-.mail-li {
+.navigation-li {
     color:  var(--main-to-color);}
 
 .active:hover,.active:focus  {
     color:  var(--main-one-color);
 }
 
-.dio-a, .kont-b {
+.navigation-a, .navigation-bi {
     color:var(--main-one-color);
 }
  
-.hero-big {
+.hero-big { width: 700px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     color:  var(--main-sir-color);
     text-align: center;
-    padding: 200px 452px 60px 452px;
+    padding-top: 200px; 
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
-.hero {
+.hero { margin-bottom: 66px; /*  94px-28px  на скрый текст */
     background-color :var(--main-fa-color);
-    height: 600px;
     text-align: center;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+   justify-content: center;
+}
+.bot-button { 
+    width: 216px;
+    height: 50px;
+   /* left: 692px;*/
+    background-color: var(--main-one-color);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--main-sir-color);
+  /* margin-bottom: 200px;*/
+    /*margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;*/
 }
 
-.ten {
-    background-color : var(--main-fa-color);} 
 .logo { 
     font-family:Raleway;
     font-weight: 700;
@@ -84,29 +104,28 @@ ul { padding-inline-start: 0px; }
     line-height: 1.38;
     color: var(--main-sr-color);
 }   
-.logo-web, .lo-b{
+.logo-web, .logo-b{
     color:
     var(--main-one-color);
 } 
-.lo-a , .logo-wite { 
+.logo-a , .logo-wite { 
     color: var(--main-sir-color);
 }
-.comand {
-   /* height: 648px;*/
+.section-comand {
     background-color: var(--main-so-color);
     padding-top : 94px ;
 }
+/*
 .comone {  display: flex;
     text-align: center; 
-   /* margin: 15px;*/
     justify-content: center;
-}
+}*/
 .bend { padding-top: 94px;
     font-weight: 700px;
     font-size: 36px;
     line-height: 1.17;
     text-align: center; 
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 .tehnology  {
     display: flex;  
@@ -119,7 +138,7 @@ ul { padding-inline-start: 0px; }
    height: 370px; 
    margin-top: 50px;
 }
-.subtitle, .grey {
+.subtitle, .btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
@@ -130,57 +149,48 @@ ul { padding-inline-start: 0px; }
     line-height: 1.17;
     color:  var(--main-to-color);
 }
-.sect {
+.title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     color: var(--main-se-color);
     text-align: center; 
+    margin-top: 94px;
 }
-.det-a {
+.headline {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
     color: var(--main-se-color);
 }
-.det-b {
+.text {
     font-size: 14px;
     line-height: 1.71;
     color: var(--main-to-color);
     width: 270px ;
     height: 72px;
 }
-.adr-b, .adr-c, .info-b, .info-c, .adr-a  {
+.adress-b, .adress-c, .adress-bi, .adress-ci, .adress-a  {
     font-size: 14px;
     line-height: 1.71;
     color:  var(--main-sir-color);
     font-style: normal;
     opacity: 0.6;
 }
-.adr-a  {
+.adress-a  {
     opacity: 1;
 }
-.bot-x {
-    width: 216px;
-    height: 50px;
-    top: 430px;
-    left: 692px;
-    background-color: var(--main-one-color);
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    color: var(--main-sir-color);
-}
-.bot-x:hover ,.bot-x:focus {
+
+.bot-button:hover ,.bot-button:focus {
     color:  var(--main-fa-color);
 }
 
 
-.section , .section-q, .sec-q {
+.subject {
     visibility: hidden;
 }
-.adress , .ten { box-sizing: border-box;
+.adress {
+    box-sizing: border-box;
     padding-left: 200px;
     height: 252px;
     background: var(--main-fa-color);
@@ -192,7 +202,7 @@ ul { padding-inline-start: 0px; }
     margin: 0px;
 }
 
-.but-sek  {
+.items  {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -202,7 +212,7 @@ ul { padding-inline-start: 0px; }
     margin-top: 0px;
 }
 
-.grey { 
+.btn { 
     width:100px;
     height:26px;
     top:180px;
@@ -228,12 +238,12 @@ ul { padding-inline-start: 0px; }
 .subtitle, .profession { text-align: center;
 }
 
-.grey:hover{
+.btn:hover{
     background-color: var(--main-one-color); 
     color: var(--main-sir-color);
     transition-duration: 0.5s;
 }
-.grey:focus{
+.btn:focus{
     background-color: var(--main-one-color); 
     color: var(--main-sir-color);
 }
@@ -241,36 +251,38 @@ ul { padding-inline-start: 0px; }
     font-weight: 400;
 }
 
-.logo{ display: inline-block;
-width: 145px;
-height: 31px;
+.logo{ 
+    display: inline-block;
+    width: 145px;
+    height: 31px;
 
 }
 .active {
     display: inline-block;
 }
 
-.box { 
+.list { 
     display: flex;
     flex-wrap: wrap; 
     align-items: center;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
+   /* margin-bottom: 94px;*/
     }
 
-.but-sek, .box {
+.items, .list {
     margin-bottom: 56px; 
 }
 
 .adress {
     margin-top: 94px;}
 
-.adr-a, .info-b,.info-c {
+.adress-a, .adress-bi,.adress-ci {
     width: 231px;
     height: 21px;
 }
-.lo-a {
+.logo-a {
     margin-bottom: 16px;
 }
 
@@ -294,24 +306,24 @@ height: 31px;
    
 }
 
-.dio-a{
+.navigation-a{
     width: 45px;
-    height: 16px;
+  /*  height: 16px;*/
 }
-.dio-b{
-    width: 72px;
-height: 16px;
+.navigation-b{
+    width: 72px;   
+/* height: 16px;*/
 
 }
-.dio-c{
+.navigation-c{
     width: 64px;
-    height: 16px;
+ /*   height: 16px;*/
 }
 
 .logo-activ {
 padding-top: 24px;
 }
-.box-r, .box-t  {
+.navigation-r, .box-navigation {
     justify-content: space-between;
     display: flex;
     width: 281px;
@@ -323,7 +335,7 @@ padding-top: 24px;
     
 }
    
-.box-q { display: flex;
+.wrapper-q { display: flex;
     flex-wrap: wrap; 
     align-items: center;
   justify-content: space-between;
@@ -331,41 +343,41 @@ padding-top: 24px;
    
 }
 
-.lo-a.active{
+.logo-a.active{
     padding-top: 60px ;
     padding-bottom: 20px;
 }
 
 
-.kont-a, .dio-a { 
+.navigation-ai, .navigation-a { 
     display: inline-block;
     width: 45px ;
-    height:31px ;
+  /*  height:31px ;*/
 }
-.kont-b ,.dio-b { 
+.navigation-bi ,.navigation-b { 
     display: inline-block;
     width: 72px ;
     height:31px ;
   
 }
-.kont-c, .dio-c { 
+.navigation-ci, .navigation-c { 
     display: inline-block;
     width: 64px ;
     height:31px ;
 }
-.kont-d, .mail-a { 
+.navigation-di, .navigation-aa { 
     display: inline-block;
     width: 135px ;
     height:16px ;
 }
-.kont-i, .mail-b { 
+.navigation-ii, .navigation-bb { 
     display: inline-block;
     width: 122px ;
-    height: 16px;
+ /*   height: 16px;*/
 }
-.frend-block {
+.image-block {
     width: 270px;
-    height: 368px;
+  /*  height: 368px; */
 }
 .subtitle {
     padding-top: 30px;
