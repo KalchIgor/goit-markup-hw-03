@@ -189,7 +189,7 @@ ul { padding-inline-start: 0px; }
 .adress {
     box-sizing: border-box;
     padding-left: 200px;
-    height: 252px;
+   /* height: 252px;*/
     background: var(--main-fa-color);
    
 }
@@ -381,5 +381,8 @@ padding-top: 24px;
 .section-comand {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.adress-c,.adress-ci {
+    margin-bottom: 60px;
 }
 
