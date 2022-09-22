@@ -294,7 +294,7 @@ ul { padding-inline-start: 0px; }
    
 .wrapper-q { display: flex;
     flex-wrap: wrap; 
-    align-items: center;
+    align-items: baseline;
   justify-content: start;
   margin-bottom: 72px;
 
