@@ -302,7 +302,7 @@ ul { padding-inline-start: 0px; }
 
 .logo-a.active{
     padding-top: 60px ;
-    padding-bottom: 4px;
+    padding-bottom: 20px;
 }
 
 
@@ -354,3 +354,6 @@ ul { padding-inline-start: 0px; }
 .navigation-a,.navigation-ai {
     margin-left: 93px;
 } 
+.address-ul {
+    margin: 0px;
+}
