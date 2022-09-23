@@ -61,27 +61,33 @@ ul { padding-inline-start: 0px; }
     color:var(--main-one-color);
 }
  
-.hero-big { width: 700px;
+.hero-big {
+    width: 700px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     color:  var(--main-sir-color);
     text-align: center;
-    padding-top: 200px; 
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-  
+   
+    
 }
-.hero { margin-bottom: 66px; /*  94px-28px  на скрый текст */
+.hero { 
+ 
     background-color :var(--main-fa-color);
     text-align: center;
     padding-bottom: 200px;
+   padding-top: 200px;
     margin-left: auto;
     margin-right: auto;
    justify-content: center;
+
+ 
+  
 }
-.bot-button { 
+.bot-button {
     width: 216px;
     height: 50px;
     background-color: var(--main-one-color);
@@ -90,9 +96,7 @@ ul { padding-inline-start: 0px; }
     font-size: 16px;
     line-height: 1.88;
     color: var(--main-sir-color);
-  /* 
-    margin-left: auto;
-    margin-right: auto;*/
+ 
 }
 
 .logo { 
@@ -125,12 +129,15 @@ ul { padding-inline-start: 0px; }
 .tehnology  {
     display: flex;  
     justify-content: space-between;
-    text-align:left;  
+    text-align:left; 
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    padding-bottom: 94px;
+    padding-top: 66px;  /*  94px-28px  на скрый текст */
 }
 .foto {
      display: flex; 
-   justify-content: space-between ;
-   height: 370px; 
+   justify-content: space-between ; 
    margin-top: 50px;
 }
 .subtitle, .btn {
@@ -150,7 +157,6 @@ ul { padding-inline-start: 0px; }
     line-height: 1.17;
     color: var(--main-se-color);
     text-align: center; 
-    margin-top: 94px;
 }
 .headline {
     font-weight: 700;
@@ -198,10 +204,9 @@ ul { padding-inline-start: 0px; }
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin-left: auto; 
     margin-right: auto;
-    margin-top: 0px;
+    margin-top: 72px;
 }
 
 .btn { 
@@ -275,7 +280,7 @@ ul { padding-inline-start: 0px; }
 }
 
 .container {
-    width:1200px;
+     width: 1200px;
     padding-left: 15px; 
     padding-right: 15px; 
     margin-left: auto ;
@@ -296,7 +301,6 @@ ul { padding-inline-start: 0px; }
     flex-wrap: wrap; 
     align-items: baseline;
   justify-content: start;
-  margin-bottom: 72px;
 
 }
 
@@ -348,12 +352,16 @@ ul { padding-inline-start: 0px; }
     margin-right: 50px;
 }
 .navigation-aa , .navigation-di {
-    margin-left: 340px;
     margin-right: 50px;
 }
-.navigation-a,.navigation-ai {
-    margin-left: 93px;
-} 
+.box-navigation
+{
+    margin-left: 340px;
+}
+
+a.logo.active.logo-activ{
+   margin-right:93px ; 
+}
 .address-ul {
     margin: 0px;
 }
