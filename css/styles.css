@@ -293,8 +293,7 @@ ul { padding-inline-start: 0px; }
     justify-content: space-between;
     display: flex;
     margin: 0px;
-   /* padding-top: 32px; */
-   /* padding-bottom: 32px;  */
+  
 }
    
 .wrapper-q { display: flex;
