@@ -293,8 +293,8 @@ ul { padding-inline-start: 0px; }
     justify-content: space-between;
     display: flex;
     margin: 0px;
-    padding-top: 32px;
-    padding-bottom: 32px;  
+   /* padding-top: 32px; */
+   /* padding-bottom: 32px;  */
 }
    
 .wrapper-q { display: flex;
@@ -361,6 +361,9 @@ ul { padding-inline-start: 0px; }
 
 a.logo.active.logo-activ{
    margin-right:93px ; 
+   padding-top: 24px;
+   padding-bottom: 32px;/* линия выстраивается
+    по базовойлинии логотип з счет  baseline */
 }
 .address-ul {
     margin: 0px;
