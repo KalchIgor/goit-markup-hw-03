@@ -133,8 +133,7 @@ ul { padding-inline-start: 0px; }
     text-align:left; 
     margin-top: 0px; 
     margin-bottom: 0px;
-    padding-bottom: 94px;
-    padding-top: 66px;  /*  94px-28px  на скрый текст */
+   
 }
 .foto {
      display: flex; 
@@ -192,7 +191,8 @@ ul { padding-inline-start: 0px; }
 .adress {
     box-sizing: border-box;
     background: var(--main-fa-color);
-   
+    padding-top: 60px ;
+   padding-bottom: 60px ;
 }
 .frend { 
     display: flex;
@@ -305,7 +305,7 @@ ul { padding-inline-start: 0px; }
 }
 
 .logo-a.active{
-    padding-top: 60px ;
+   
     padding-bottom: 20px;
 }
 
@@ -344,9 +344,7 @@ ul { padding-inline-start: 0px; }
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.adress-c,.adress-ci {
-    margin-bottom: 60px;
-}
+
 .navigation-b ,.navigation-bi {
     margin-left: 50px;
     margin-right: 50px;
@@ -367,4 +365,13 @@ a.logo.active.logo-activ{
 }
 .address-ul {
     margin: 0px;
+}
+.section-texno {
+       padding-bottom: 47px;
+       padding-top: 66px;  
+
+}
+.section-work {
+    padding-bottom: 94px;
+    padding-top: 47px;
 }
