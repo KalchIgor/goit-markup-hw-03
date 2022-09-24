@@ -21,11 +21,12 @@ html {
     --main-sr-color:  #000000;
 
   }
+  
 a { 
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
    }
 a {   margin: 0px;}
-li {
+li , ul {
     list-style-type: none; /* Убираем маркеры */
     padding: 0px;
     margin: 0px;
