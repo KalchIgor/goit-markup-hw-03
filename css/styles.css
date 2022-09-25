@@ -69,11 +69,9 @@ ul { padding-inline-start: 0px; }
     line-height: 1.36;
     color:  var(--main-sir-color);
     text-align: center;
-    padding-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-   
-    
+    margin-bottom: 30px;  
 }
 .hero { 
  
@@ -97,6 +95,8 @@ ul { padding-inline-start: 0px; }
     font-size: 16px;
     line-height: 1.88;
     color: var(--main-sir-color);
+
+  
  
 }
 
@@ -129,16 +129,18 @@ ul { padding-inline-start: 0px; }
 }
 .tehnology  {
     display: flex;  
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     text-align:left; 
     margin-top: 0px; 
     margin-bottom: 0px;
    
 }
 .foto {
-     display: flex; 
+    display: flex; 
    justify-content: space-between ; 
    margin-top: 50px;
+   
+   
 }
 .subtitle, .btn {
     font-weight: 500;
@@ -218,7 +220,7 @@ ul { padding-inline-start: 0px; }
     background: var(--main-so-color);
     margin: 10px;
     border: none; 
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+    /*box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)*/
 }
 
 .widget {
@@ -306,7 +308,7 @@ ul { padding-inline-start: 0px; }
 
 .logo-a.active{
    
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -338,7 +340,7 @@ ul { padding-inline-start: 0px; }
 
 .subtitle {
     padding-top: 30px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .section-comand {
   padding-top: 94px;
@@ -374,4 +376,14 @@ a.logo.active.logo-activ{
 .section-work {
     padding-bottom: 94px;
     padding-top: 47px;
+   
+}
+.img-block {
+  
+    border-width: 1px;
+}
+.picture {
+    border-bottom-width: 1px; /* Толщина линии внизу */
+    border-bottom-style: solid; /* Стиль линии внизу */
+    border-bottom-color: white; /* Цвет линии внизу */
 }
