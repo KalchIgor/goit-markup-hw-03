@@ -129,7 +129,7 @@ ul { padding-inline-start: 0px; }
 }
 .tehnology  {
     display: flex;  
-   flex-basis: calc(100%-30*3)/4;
+   flex-basis: calc(100%-30px*3)/4;
     text-align:left; 
     margin-top: 0px; 
     margin-bottom: 0px;
