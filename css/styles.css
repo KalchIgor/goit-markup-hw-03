@@ -388,3 +388,7 @@ a.logo.active.logo-activ{
     border-bottom-style: solid; /* Стиль линии внизу */
     border-bottom-color: white; /* Цвет линии внизу */
 }
+.adress-bi, .adress-b {
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
