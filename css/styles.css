@@ -233,6 +233,8 @@ ul { padding-inline-start: 0px; }
         font-size: 18px;
         line-height: 2;
         color: var(--main-se-color);
+        margin-bottom: 4px;
+
 }
 
 .subtitle, .profession { text-align: center;
