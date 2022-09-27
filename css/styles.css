@@ -129,7 +129,7 @@ ul { padding-inline-start: 0px; }
 }
 .tehnology  {
     display: flex;  
-   flex-basis: calc(100%-30px*3)/4;
+ 
     text-align:left; 
     margin-top: 0px; 
     margin-bottom: 0px;
@@ -214,19 +214,21 @@ ul { padding-inline-start: 0px; }
 
 .btn { 
     width:100px;
-    height:26px;
+    height: 38px;
     top:180px;
     left:979px;
     background: var(--main-so-color);
     margin: 10px;
     border: none; 
-    /*box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)*/
+    border-radius: 4px;
 }
 
 .widget {
         font-size: 16px;
         line-height: 1.88;
         color: var(--main-to-color);
+        padding-left: 24px;
+        
 }
 .aside {
         font-weight: 700;
@@ -234,6 +236,7 @@ ul { padding-inline-start: 0px; }
         line-height: 2;
         color: var(--main-se-color);
         margin-bottom: 4px;
+        padding-left: 24px;
 
 }
 
@@ -268,6 +271,8 @@ ul { padding-inline-start: 0px; }
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
+    /*height: 1360px;*/
+    margin-bottom: 30px;
    
     }
 
@@ -386,11 +391,36 @@ a.logo.active.logo-activ{
   
 }
 .picture {
-    border-bottom-width: 1px; /* Толщина линии внизу */
-    border-bottom-style: solid; /* Стиль линии внизу */
-    border-bottom-color: white; /* Цвет линии внизу */
+   /* border-bottom-width: 1px; /* Толщина линии внизу */
+   /* border-bottom-style: solid; /* Стиль линии внизу */
+   /* border-bottom-color: white; /* Цвет линии внизу */
+    border: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
 .adress-bi, .adress-b {
     margin-top: 9px;
     margin-bottom: 9px;
+}
+/*
+.li-tehnology {
+    flex-basis: calc(100%-30px*3)/4;
+} */
+.btn-a {
+    width: 73px; ;
+}
+.btn-b {
+    width: 125px; ;
+}
+.btn-c {
+    width: 112px; ;
+}
+.btn-d {
+    width: 103px; ;
+}
+.btn-i {
+    width: 130px; ;
+}
+.picture-img {
+    margin-bottom: 20px;
 }
