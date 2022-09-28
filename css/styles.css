@@ -200,7 +200,17 @@ ul { padding-inline-start: 0px; }
 
 
 .subject {
-    visibility: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  /*  visibility: hidden; */
 }
 .adress {
     box-sizing: border-box;
@@ -221,7 +231,8 @@ ul { padding-inline-start: 0px; }
     justify-content: center;
     margin-left: auto; 
     margin-right: auto;
-    margin-top: 72px;
+    margin-top: 100px;
+  
 }
 
 .btn { 
@@ -283,8 +294,9 @@ ul { padding-inline-start: 0px; }
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-  /*  margin-bottom: 30px;*/
     row-gap: 30px ;
+
+ 
    
     }
 
@@ -375,14 +387,13 @@ ul { padding-inline-start: 0px; }
 }
 .box-navigation
 {
-    margin-left: 340px;
+    margin-left: auto;
 }
 
 a.logo.active.logo-activ{
    margin-right:93px ; 
-   padding-top: 24px;
-   padding-bottom: 32px;/* линия выстраивается
-    по базовой линии логотипа з счет  baseline */
+   padding-top: 20px;
+   padding-bottom: 24px;
 }
 .address-ul {
     margin: 0px;
