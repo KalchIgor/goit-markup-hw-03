@@ -419,8 +419,6 @@ a.logo.active.logo-activ{
   
 }
 .picture {
-    border: 1px solid #EEEEEE;
-   /* margin-bottom: 30px;*/
     padding-bottom: 20px;
 }
 header {
@@ -453,13 +451,13 @@ header {
 .btn-i {
     width: 130px; ;
 }
-.picture-img {
-    margin-bottom: 20px;
-}
+
 .img-block {
     border-radius: 0px;
     margin-bottom: 30px;
 }
 .card-text {border: 0px;
     padding-left: 24px;
+    padding-top: 20px;
+    border-bottom: 1px solid #EEEEEE;
 }
