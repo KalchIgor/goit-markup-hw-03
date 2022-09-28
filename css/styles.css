@@ -97,6 +97,7 @@ ul { padding-inline-start: 0px; }
     color: var(--main-sir-color);
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 
   
  
@@ -245,6 +246,7 @@ ul { padding-inline-start: 0px; }
     margin: 8px;
     border: none; 
     border-radius: 4px;
+    cursor:  pointer;
 }
 
 .widget {
