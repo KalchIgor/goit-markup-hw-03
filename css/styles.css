@@ -420,6 +420,10 @@ a.logo.active.logo-activ{
 }
 .picture {
     padding-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #EEEEEE ;
+    border-left: 1px solid #EEEEEE;
+    border-right:1px solid #EEEEEE ;
 }
 header {
    border: 1px solid #ECECEC;
@@ -460,4 +464,7 @@ header {
     padding-left: 24px;
     padding-top: 20px;
     border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right:1px solid #EEEEEE ;
+   
 }
