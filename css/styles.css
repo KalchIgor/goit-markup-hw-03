@@ -95,6 +95,8 @@ ul { padding-inline-start: 0px; }
     font-size: 16px;
     line-height: 1.88;
     color: var(--main-sir-color);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   
  
@@ -141,8 +143,6 @@ ul { padding-inline-start: 0px; }
    /*justify-content: start ; */
    flex-wrap: wrap;
     text-align:left; 
-    margin-top: 0px; 
-    margin-bottom: 0px; 
     column-gap: 30px;
 
 }
@@ -196,6 +196,7 @@ ul { padding-inline-start: 0px; }
 
 .bot-button:hover ,.bot-button:focus {
     color:  var(--main-fa-color);
+    border-color: var(--main-sir-color);
 }
 
 
@@ -250,7 +251,7 @@ ul { padding-inline-start: 0px; }
         font-size: 16px;
         line-height: 1.88;
         color: var(--main-to-color);
-        padding-left: 24px;
+    
         
 }
 .aside {
@@ -259,7 +260,6 @@ ul { padding-inline-start: 0px; }
         line-height: 2;
         color: var(--main-se-color);
         margin-bottom: 4px;
-        padding-left: 24px;
 
 }
 
@@ -370,7 +370,6 @@ ul { padding-inline-start: 0px; }
 }
 
 .subtitle {
-    padding-top: 30px;
     margin-bottom: 10px;
 }
 .section-comand {
@@ -424,7 +423,7 @@ header {
     
   
 }
-.adress-bi, .adress-b {
+.adress-li-a  {
     margin-top: 9px;
     margin-bottom: 9px;
 }
@@ -449,4 +448,11 @@ header {
 }
 .picture-img {
     margin-bottom: 20px;
+}
+.img-block {
+    border-radius: 0px;
+    margin-bottom: 30px;
+}
+.card-text {border: 0px;
+    padding-left: 24px;
 }
