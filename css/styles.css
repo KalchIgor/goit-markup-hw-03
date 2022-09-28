@@ -224,6 +224,7 @@ ul { padding-inline-start: 0px; }
     display: flex;
     justify-content:space-around;
     margin: 0px;
+   
  
 }
 
@@ -457,4 +458,7 @@ header {
 }
 .card-text {border: 0px;
     padding-left: 24px;
+}
+.frend-block {
+    background-color: var(--main-sir-color);
 }
