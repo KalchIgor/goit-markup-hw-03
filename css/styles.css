@@ -19,6 +19,7 @@ html {
     --main-se-color:  #212121;
     --main-so-color:  #F5F4FA ;
     --main-sr-color:  #000000;
+    --main-btn-color:  #188CE8
 
   }
   
@@ -196,8 +197,7 @@ ul { padding-inline-start: 0px; }
 }
 
 .bot-button:hover ,.bot-button:focus {
-    color:  var(--main-fa-color);
-    border-color: var(--main-sir-color);
+    background-color:  var(--main-btn-color);
 }
 
 
